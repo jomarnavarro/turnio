@@ -1,0 +1,6 @@
+require 'selenium-webdriver'
+require 'active_support/core_ext/hash'
+require 'yaml'
+require 'net/http'
+require 'json'
+require 'require_all'
