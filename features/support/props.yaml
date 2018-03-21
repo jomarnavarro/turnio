@@ -1,0 +1,15 @@
+urls: 
+  api_url: https://api.turn-stage.io/v1
+  partner_portal: https://partners.turn-stage.io
+browser: :chrome
+timeouts:
+  light_sleep_time: 1
+  deploy_sleep_time: 3
+  short: 15
+  medium: 30
+  long: 45
+#endpoints
+endpoints:
+  sync_search: /person/search
+  location: /location/carrier
+  async_search: /person/search_async
